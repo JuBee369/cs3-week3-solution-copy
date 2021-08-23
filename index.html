@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X_UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Coursera cs3 week3 solution(HTML, CSS, and Javascript for Web Developers)</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-expand-md navbar-light navbar-default ">
+                <!-- <div class="navbar-header"> -->
+                    <div class=" mobile"> 
+                        <a href="index.html" class ="pull-left">
+                            <div id="logo-img" alt="LoGo ImaGe">
+
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-brand headerprt">
+                            <img id="header-img" src="./img/Restaurant-header.png" alt="HeaDer ImaGe">
+                            <a href="index.html" class ="nav-lnk">
+                                <h1 id="header-txt">Hotel Rahmath</h1>
+                            </a>
+                    </div>
+                    <button class="navbar-toggler collapsed nav-butt nav-lnks " type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">  <!--nav-chg-->
+                        <span class="navbar-toggler-icon sr-only icn-bar "></span>
+                        <span class="glyphicon glyphicon-menu-hamburger icn-bar"></span>
+                    </button>
+
+                    <div class=" collapse navbar-collapse nav-lnks" id="collapsable-nav">
+                        <ul id="nav-list" class="nav navbar-nav ms-auto  lnks"> <!-- tuto included:  -->
+                            <li class="nav-item active">
+                                <a class="nav-link disabled " href="index.html">
+                                    <img class="lnk-img mobile " src="./img/home.png" href="index.html" alt="HoMe ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-home"></span> -->
+                                    <br class="hidden-xs">
+                                    <span class="lnk-title">Home </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="menu.html">
+                                    <img class="lnk-img mobile " src="./img/menu.png" href="menu.html" alt="MeNu ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-cutlery"></span> -->
+                                    <br class="hidden-xs">
+                                    <span class="lnk-title">Menu</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="about.html">
+                                    <img class="lnk-img mobile " src="./img/about03.png" href="about.html" alt="About ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-info-sign"></span> -->
+                                    <br class="hidden-xs">
+                                    <span class="lnk-title">About</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="award.html">
+                                    <img class="lnk-img mobile " src="./img/award02.png" href="award.html" alt="Award ImaGe">
+                                    <!-- <span class="glyphicon glyphicon-certificate"></span> -->
+                                    <br class="hidden-xs">
+                                    <span class="lnk-title">Award</span>
+                                </a>
+                            </li>
+                            <li id="phone" class="nav-item hidden-xs">
+                                <!-- <img class="lnk-img mobile " src="./img/award02.png" href="award.html" alt="Award ImaGe"> -->
+                                <a class="nav-link " href="tel:+919895775103">
+                                    <span class="lnk-title">+919895775103</span><br class="hidden-xs">
+                                </a>
+                               <div class="lnk-title">* We Deliver</div>
+                            </li>
+                        </ul>
+                    </div>
+                <!-- </div> -->
+            </nav>
+        </header>
+
+        <div id="main-content" class="container jumbo">
+            <div class="jumbotron">
+                <img src="img/jumbotron_768.jpg" alt="PicTuRe oF ResTauRant" class="imp-responsive visible-xs visible-sm sec-img-h1">
+                <img src="img/jumbotron_992.jpg" alt="PicTuRe oF ResTauRant" class="imp-responsive visible-md sec-img-h1">
+                <img src="img/jumbotron_1200.jpg" alt="PicTuRe oF ResTauRant" class="imp-responsive visible-lg sec-img-h1">
+            </div>
+
+	    <div id="home-tiles" class="row">
+      		<div class="col-md-4 col-sm-6 col-xs-12">
+        		<a href="menu.html"><div id="menu-tile"><span>menu</span></div></a>
+      		</div>
+      		<div class="col-md-4 col-sm-6 col-xs-12">
+        		<a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+      		</div>
+      		<div class="col-md-4 col-sm-12 col-xs-12">
+        		<a href="https://goo.gl/maps/J4N6BSZJkHjxNiZc7" target="_blank">
+          		<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15652.533031923795!2d75.7790758!3d11.2516062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbcb494a9dbffa3cd!2sRahmath%20Hotel!5e0!3m2!1sen!2sin!4v1629392205887!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            			<span>map</span>
+          		</div>
+
+        		</a>
+      		</div>
+	    </div>
+
+        </div>
+
+        <footer class="panel-footer">
+    	    <div class="container">
+      		<div class="row">
+        		<section id="hours" class="col-sm-4">
+          			<span>Hours:</span><br>
+          			Sun-Thurs: 8:00am - 11:00pm<br>
+          			Fri: 8:00am - 12:00am<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 1:15pm - 11:00pm<br>
+				Sat: 8:00am - 11:00pm
+          			<hr class="visible-xs">
+        		</section>
+        		<section id="address" class="col-sm-4">
+          			<span>Address:</span><br>
+          			Aravind Ghosh Road<br>
+          			Near Mathrubhumi 2nd Gate<br>
+				Kozhikode, Kerala 673001<br>
+				India<br>
+          			<p>* Delivery area within 3-4 miles, with minimum order of ₹100 plus ₹15 charge for all deliveries.</p>
+          			<hr class="visible-xs">
+        		</section>
+        		<section id="testimonials" class="col-sm-4">
+          			<p>"The best Kozhikoden restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          			<p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        		</section>
+      		</div>
+          	<div class="text-center">&copy; Copyright RahMaTh Hotel 2021</div>
+    	    </div>
+  	</footer>
+        <!-- <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
+    </body>
+</html>
